@@ -1,5 +1,5 @@
 ## Specify phone tech before including full_phone
-$(call inherit-product, vendor/illusion/config/gsm.mk)
+$(call inherit-product, vendor/illusion/config/common_full_tablet_wifionly.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := grouper
